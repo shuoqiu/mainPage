@@ -1,0 +1,312 @@
+h1,h3,p,a,button {
+	font-family: "Helvetica Neue",helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+
+.side-nav {
+	position: fixed;/*固定定位*/
+	top: 45%;
+	right: 20px;
+	z-index: 1;/*防止导航点被覆盖*/
+}
+
+.side-nav ul.nav-side-nav {
+	text-align: center;
+	list-style: none;/*去掉点上的效果*/
+	margin: 0;
+	padding-left: 0;
+}
+
+.side-nav ul.nav-side-nav >li {
+	display: block;
+	line-height: 1.45em;
+	margin: 0;
+	padding: 8px 0;
+}
+
+.side-nav ul.nav-side-nav >li >a {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #e2e2e2;
+}
+
+.onePage {
+	height: 750px;
+}
+
+.onePage-bg {
+	height: 800px;
+	width: 100%;
+	position: absolute;/*绝对定位*/
+	background-position: center center;
+	background-size: cover;
+}
+
+#onePagebg {
+	background-image: url("../images/0.jpg");
+}
+
+.headh1content {
+	margin-top: 150px;
+	line-height: 75px;
+}
+
+.title-text {
+	margin-left: 50px;
+}
+
+.headfontsize h1 {
+	font-size: 50pt;
+	color: #ffffff;
+}
+
+.headfontsize p {
+	color: #ffffff;
+}
+
+.headfontsize .pcontent {
+	margin-top: 50px;
+	line-height: 33px;
+}
+
+.twoPage {
+	padding: 2px 0px 0px 2px;
+	height: auto;
+	background-image: url(../images/1.jpg);
+	position: relative;/*相对定位*/
+}
+
+.twoPage-text {
+	width: 100%;
+	text-align: center;
+}
+
+.twoPage-text-h1 {
+	margin-left: 120px;
+	letter-spacing: 2px; 
+	margin-top: 80px;
+	margin-bottom: 0px;
+	padding: 20px 0px 0px 0px;
+}
+
+.twoPage-text-h1 img {
+	width: 120px;
+	margin-top: -20px;
+}
+
+.twoPage .row {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 20px;
+}
+
+.twoPage-courses {
+	float: left;
+	background: #ffffff;
+	padding: 0 2px 2px 0;
+	position: relative;/*相对定位*/
+	overflow: hidden;/*隐藏超出的内容*/
+}
+
+.twoPage-courses img {
+	width: 420px; 
+	height: 300px;
+}
+
+.twoPage-courses a {
+	width: 100%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+.classIcon h3 {
+	margin-top: 120px;
+	color: #d1e973;
+}
+
+.classIcon h1 {
+	color: #fff5e1; 
+}
+
+.classIcon {
+	width: 100%;
+	height: 100%;
+	position: absolute;/*绝对定位*/
+	left: 0;
+	top: 0;
+	color: #fff;
+	opacity: 0;/*透明度*/
+}
+
+.classIcon:hover {
+	background: #1eb450;
+	opacity: 0.9;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+
+}
+
+.twoPageBtn {
+	width: 100%;
+	margin: 0% auto;
+	text-align: center;
+}
+
+.twoPageBtn .btn-lg {
+	font-size: 25px;
+}
+
+#twoPage-easy {
+	margin: 50px 0 150px 0;
+}
+
+.threePage {
+	position: absolute;
+	width: 100%;
+	height: 800px;
+}
+
+.threePage-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#threePageBg {
+	background-image: url("../images/2.jpg");
+}
+
+.threePageContent {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.threePageText {
+	margin-top: 180px;
+}
+
+.threePageText p {
+	margin-top: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.threePageBtnContent {
+	margin-top: 300px;
+	font-size: 25px;
+}
+
+.fourPage {
+	height: 700px;
+	margin-top: 800px;
+	background-image: url("../images/3.jpg");
+}
+
+.courseDetail-text {
+	color: #ffffff;
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+.courseDetail-text p {
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+.fourPage .container .carousel {
+	margin-top: 100px;
+
+}
+
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-repeat: repeat-x;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-repeat: repeat-x;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: -20%;
+    /*margin-left: -10px;*/
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: -20%;
+    /*margin-right: -10px;*/
+}
+
+.fivePage-bg {
+	height: 800px;
+	width: 100%;
+	position: absolute;
+	background-position: center center;
+	background-size: cover;
+}
+
+#fivePage {
+	background-image: url("../images/4.jpg");
+}
+
+.footerText {
+	margin-top: 155px;
+	width: 100%;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+}
+
+.footerBtnCenter {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.qiYeIcon {
+	width: 200px;
+	height: 200px;
+}
+
+.qiYeIcon:hover {
+	border: 2px solid #d9edf7;
+}
+
+.footerTextBtn {
+	margin-top: 150px;
+	width: 100%;
+	text-align: center;
+}
+
+.footerTextBtn-text {
+	margin-top: 20px;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
